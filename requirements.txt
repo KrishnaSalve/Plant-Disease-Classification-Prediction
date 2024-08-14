@@ -1,0 +1,6 @@
+tensorflow
+streamlit
+pillow
+matplotlib
+numpy
+opencv-python==4.6.0.66
