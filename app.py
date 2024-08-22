@@ -17,10 +17,10 @@ def load_model():
 model = load_model()
 
 st.write("""
-         # Flower Classification
+         # Plant Disease Classification
          """)
 
-file = st.file_uploader("Please upload an flower image", type = ['jpg', 'png'])
+file = st.file_uploader("Please upload an image", type = ['jpg', 'png'])
 
 def import_and_predict(image_data, model):
 
